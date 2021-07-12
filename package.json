@@ -1,0 +1,40 @@
+{
+  "name": "notesappserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonP321/NotesAppServer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandonP321/NotesAppServer/issues"
+  },
+  "homepage": "https://github.com/BrandonP321/NotesAppServer#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.19.1",
+    "@types/node": "^15.14.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.5",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
